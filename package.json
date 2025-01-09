@@ -1,0 +1,15 @@
+{
+  "name": "tai-xiu-bot",
+  "version": "1.0.0",
+  "description": "Bot dự đoán kết quả Tài/Xỉu sử dụng học máy.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "fs": "^0.0.1-security"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
