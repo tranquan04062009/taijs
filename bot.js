@@ -3,7 +3,7 @@ const { mainMenu, txMenu } = require('./menu');
 const { combinedPredictionWithErrorHandling, retrainModel } = require('./prediction');
 const { saveHistoryToFile, loadHistoryFromFile, saveTrainingData } = require('./dataManager');
 
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';  // Thay bằng token của bạn
+const token = '7755708665:AAEOgUu_rYrPnGFE7_BJWmr8hw9_xrZ-5e0';  // Thay bằng token của bạn
 const bot = new TelegramBot(token, { polling: true });
 
 let historyData = [];  // Lịch sử người dùng
